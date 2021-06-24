@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+
+}
+.main{
+    background: tomato;
+    border-radius: 0px 0px 0px 50px;
+    padding: 50px;
+}
+.main .sub-main .blogr{
+    font-size: 40px;
+    color: white;
+    margin-left: 5%;
+}
+.main .sub-main{
+    display: flex;
+    padding: 20px;
+}
+.main .sub-main ul{
+    padding-top: 15px;
+    display: inline-flex;
+    list-style: none;
+    color:white;
+    font-size: 15px;
+    
+}
+.sub-main-1{
+    display: none;
+}
+.main .sub-main ul li{
+    border-radius: 30px;
+    width: 100px;
+    padding:5px;
+
+}
+.main .sub-main ul li a{
+    text-decoration: none;
+    color:white;
+}
+.main .sub-main ul li a:hover{
+    color:darkgray;
+}
+.main .sub-main ul li a:hover{
+    background-color:white;
+    border-width: 2px;
+    position:static;
+    display:block;
+    color:tomato;
+    text-align:left;
+    border-radius: 20px;
+
+}
+.main .sub-main ul li:hover .sub-main-1 {
+  display:block;
+  position:static;
+  background-color:green;
+  margin-top:5px;
+
+
+}
+.main .sub-main ul li:hover .sub-main-1 ul{
+    display: block;
+    margin-left:-44px;
+
+}
+
+.main .sub-main .login{
+    color: white;
+    padding-top: 15px;
+    margin-left: 40%;
+    width: 50px;
+    padding-right: 10px;
+}
+.main .sub-main .btn1{
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 30px;
+    border: 1px solid white;
+}
+.main .sub-main .btn1 a{
+    text-decoration: none;
+    color:tomato;
+}
+.main .sub-main .btn1 a:hover{
+    background-color: pink;
+}
+.main .pragraphs{
+    padding-top: 60px;
+    text-align: center;
+
+}
+.main .pragraphs .firstp{
+    color: white;
+    font-size: 50px;
+    font-family:monospace;
+}
+.main .pragraphs .secondp{
+    font-family:monospace;
+    font-size: 15px;
+    padding: 20px;
+    color: white;
+
+}
+.main .buttons{
+    text-align: center;
+}
+.main .buttons .btn2{
+    border-radius: 30px;
+    width: 100px;
+    padding:5px;
+    border: 1px solid white;
+
+}
+.main .buttons .btn2 a{
+    text-decoration: none;
+    color: tomato;
+}
+.main .buttons .btn2 a:hover{
+    color:green;
+}
+.main .buttons .btn3{
+    border-radius: 30px;
+    width: 100px;
+    padding:5px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+.main .buttons .btn3 a{
+    text-decoration: none;
+    color:white;
+}
+.main .buttons .btn3 a:hover{
+    color: green;
+}
+/* Responsiveness in the tellephone */
+@media only screen and (max-width:370){
+    .main .sub-main{
+        display: block;
+    }
+
+}
+/* the second which is caled a content
+=================================== */
+.content1{
+    color: hsl(208, 49%, 24%);
+    text-align: center;
+    font-family:monospace;
+    padding: 10%;
+
+}
+.content2{
+    font-size: 16px;
+    margin-left: 10%;
+    padding-bottom: 10px;
+}
+.content2 h3{
+   margin-top: 5%;
+    color:hsl(208, 49%, 24%);
+    padding: 20px;
+}
+.content .image1{
+float: right;
+margin-top: -45%;
+margin-right:-20%;
+height: 30%;
+
+}
+.content{
+    padding-bottom: 25%;
+}
+
+/* the third sectionn which is footer
+================================== */
+.fter .fter1{
+    color: hsl(208, 49%, 24%);
+    background-color:hsl(237, 17%, 21%);
+    border-radius: 0px 30px 0px 0px;
+    background-image: url("./tools/images/bg-pattern-circles.svg");
+}
+.fter .fter1 .image2{
+    margin-left: 10%;
+    margin-top: -5%;
+}
+.fter .fter1 .content{
+    display: flex;
+    color: white;
+}
+.fter .fter1 .content label{
+    color: white;
+    font-size: 150%;
+    margin-bottom: 15%;
+}
+.fter .fter1 .content .p1{
+    padding: 5%;
+
+}
+/* footer content
+======================= */
+.fter2{
+    margin-bottom: 20%;
+}
+
+.content3{
+    float: right;
+     padding: 5%;
+     color: hsl(208, 49%, 24%);
+}
+.image3{
+    margin-left: -15%;
+    padding-top: 5%;
+}
+.content3 h2{
+    color:hsl(208, 49%, 24%);
+    padding-top: 20%;
+
+}
+.fter3 .fmain{
+    display: flex;
+    padding:25px;
+}
+.fter3 .fmain ul{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.fter3 .fmain ul li{
+    color:hsl(0, 0%, 100%);
+    list-style: none;
+}
+.fter3{
+    background-color: hsl(237, 23%, 32%);
+    border-radius: 0px 30px 0px 0px;
+}
+.fter3 .fmain ul li a{
+    color:gray;
+    text-decoration:none;
+}
+.fter3 .fmain ul li .thelist{
+    color:white;
+}
+.fter3 .fmain ul li .thelist:hover{
+    color: springgreen;
+}
+.fter3 .fmain a:hover{
+  color:tomato;
+}
